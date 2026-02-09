@@ -1,0 +1,24 @@
+# ===== DATA - NEVER PUSH =====
+data/
+datasets/
+external_dataset/
+notebooks/
+live_data/
+
+# ===== AUDIO FILES =====
+*.wav
+temp*
+live.wav
+
+# ===== PYTHON CACHE =====
+__pycache__/
+*.pyc
+*.npy
+
+# ===== ONLY KEEP THESE MODELS =====
+!models/live_cdsc.pkl
+!models/live_scaler.pkl
+
+# ===== SYSTEM =====
+.DS_Store
+.env
