@@ -1,6 +1,7 @@
 // CTDD-CDSC SpeechID — API integration with Python CDSC backend
 
-const API_URL = "http://127.0.0.1:5001";
+const API_URL = "https://ctdd-cdsc-speechid.onrender.com";
+
 
 export interface CTDDFeatures {
   MDDV: number;
